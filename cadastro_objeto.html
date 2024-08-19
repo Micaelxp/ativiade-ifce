@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Cadastro de Objeto</title>
+</head>
+<body>
+    <header>
+        <h1>Administração - Cadastro de Objeto</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="login.html">Admin</a>
+                <ul>
+                    <li><a href="cadastro_objeto.html">Cadastro de Objeto</a></li>
+                    <li><a href="lista_objetos.html">Lista de Objetos</a></li>
+                    <li><a href="cadastro_usuario.html">Cadastro de Usuários</a></li>
+                    <li><a href="lista_usuarios.html">Lista de Usuários</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="lista_objetos.html" method="post">
+            <label for="nome">Nome do Objeto:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+            <button type="submit">Salvar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Autor: Seu Nome</p>
+        <a href="sobre.html">Sobre o autor</a>
+    </footer>
+</body>
+</html>
